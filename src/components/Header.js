@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Sistema from '../images/SistemaTitle.png';
 
 class Header extends Component {
   render() {
     return (
-      <header>
-        <h1 data-testid="my-action">Sistema Solar</h1>
+      <header className="header">
+        <img src={Sistema} alt='Título Sistema Solar' />
       </header>
     );
   }
