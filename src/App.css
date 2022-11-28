@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.temporario {
+  border: 1px solid red;
+  display: flex;
+  height: 100px;
+}
