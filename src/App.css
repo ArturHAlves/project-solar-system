@@ -1,23 +1,40 @@
- @import url('https://fonts.cdnfonts.com/css/nasa');
-
-                
-
-
 .App {
+  text-align: center;
+  background-color: red;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+
+.title {
+  border: 1px solid green;
+  text-align: center;
+  font-size: 38px;
+}
+
+.planet {
+  display: flex;
+  /* background-color: red; */
+  border: 1px solid red;
+  /* justify-content: space-between; */
+}
+
+.planet-card {
+  align-items: center;
+  border: 1px solid green;
+  
+}
+
+.planet-card h3 {
+  font-size: 25px;
   text-align: center;
 }
 
-.header{
-border: 1px solid red;
-display: flex;
-background-color: grey;
-justify-content: center;
-}
-
-
-
-.temporario {
-  border: 1px solid red;
-  display: flex;
-  height: 100px;
+.planet-card img {
+  height: 130px;
+  /* margin: 10px; */
 }

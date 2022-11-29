@@ -7,8 +7,9 @@ import '../App.css';
 export default class SolarSystem extends Component {
   render() {
     return (
-      <div className="temporario" data-testid="solar-system">
+      <div data-testid="solar-system">
         <Title headline="Planetas" />
+        <section className='planet'>
         {Planets.map((planet) => (
           <PlanetCard
             key={ planet.name }
@@ -16,6 +17,7 @@ export default class SolarSystem extends Component {
             planetImage={ planet.image }
           />
         ))}
+        </section>
       </div>
     );
   }
