@@ -8,6 +8,7 @@ export default class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
+        <section className='mission'>
         {missions.map((mission) => (
           <MissionsCard
             key={ mission.name }
@@ -17,6 +18,7 @@ export default class Missions extends Component {
             destination={ mission.destination }
           />
         ))}
+        </section>
       </div>
     );
   }

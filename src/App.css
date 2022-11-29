@@ -1,7 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   background-color: red;
 }
+
+/*  Componenet Header  */
 
 .header {
   border: 1px solid red;
@@ -16,11 +24,13 @@
   font-size: 38px;
 }
 
+
+/*  Component Planet-Card    */
+
 .planet {
   display: flex;
-  /* background-color: red; */
   border: 1px solid red;
-  /* justify-content: space-between; */
+  justify-content:space-evenly ;
 }
 
 .planet-card {
@@ -36,5 +46,34 @@
 
 .planet-card img {
   height: 130px;
-  /* margin: 10px; */
+}
+
+/* Componenet  Missions   */
+
+.mission{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 32px 32px;
+  border: 1px solid orangered; 
+
+}
+
+.mission-card{
+  border: 1px solid red;
+  text-align: center;
+  width: 530px;
+  height: 80px;
+}
+
+.mission-card h3 {
+  border: 1px solid yellowgreen;
+}
+
+.mission-card p {
+  /* display: flex; */
+  display: flex;
+  flex-wrap: ;
+
+  /* justify-content: end; */
 }

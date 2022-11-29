@@ -9,14 +9,14 @@ export default class SolarSystem extends Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        <section className='planet'>
-        {Planets.map((planet) => (
-          <PlanetCard
-            key={ planet.name }
-            planetName={ planet.name }
-            planetImage={ planet.image }
-          />
-        ))}
+        <section className="planet">
+          {Planets.map((planet) => (
+            <PlanetCard
+              key={planet.name}
+              planetName={planet.name}
+              planetImage={planet.image}
+            />
+          ))}
         </section>
       </div>
     );
